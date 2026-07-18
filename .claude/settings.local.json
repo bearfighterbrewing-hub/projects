@@ -30,7 +30,11 @@
       "Bash(git init *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(ssh-keygen -t)",
+      "Bash(ssh-keygen -t ed25519 -C \"claude@anthropic.com\" -f ~/.ssh/id_ed25519 -N \"\")",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status)",
+      "Bash(git push *)"
     ]
   }
 }
