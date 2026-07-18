@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p d:/claude/projects/taylor/tasks)",
+      "Bash(touch d:/claude/projects/taylor/tasks/todo.md)",
+      "Bash(python taylor/tests/test_scout.py)",
+      "Bash(mkdir -p taylor/agents/screenwriter)",
+      "Bash(touch taylor/agents/screenwriter/agent.py)",
+      "Bash(python taylor/tests/test_screenwriter.py)",
+      "Bash(ls -a ~/.claude)",
+      "Read(//c/Users/trc95/.claude/**)",
+      "Bash(ls -a ~ | grep -E \"\\\\.\\(bashrc|zshrc|profile\\)\")",
+      "Read(//c/Users/trc95/**)",
+      "Bash(python taylor/agents/editor/agent.py)",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(where gh *)",
+      "Bash(winget --version)",
+      "Bash(choco --version)",
+      "Bash(scoop --version)",
+      "Bash(choco install *)",
+      "Bash(where choco *)",
+      "Bash(bash -c \"choco --version\")",
+      "PowerShell(choco --version)",
+      "PowerShell($env:Path -split ';')",
+      "Bash(winget install *)",
+      "Bash(gh --version)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" --version)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git config *)"
+    ]
+  }
+}
